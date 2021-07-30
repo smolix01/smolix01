@@ -6,7 +6,7 @@ html, body {
 }
 
 .common-screen-body {
-	background: #f0f4fd;
+	background: #f3f5f0;
 }
 
 /* Header */
@@ -886,7 +886,7 @@ html, body {
 }
 .checkout-box .checkout-box-title h4 {
 	font-size: 19px;
-	color: #000000;
+	color: #20458F;
 }
 .checkout-box .checkout-box-title .checkout-box-title-icon {
 	/* margin-right: 10px; */
@@ -922,7 +922,7 @@ html, body {
 		margin-bottom: 20px;
 	}
 	.checkout-summary-fixed {
-		background: #ffffff;
+		background: #ffc928;
 		padding: 11px;
 		/* margin-bottom: 0px; */
 	}
@@ -1646,12 +1646,15 @@ select#shippingZoneDefaultCountry{
 .continue-button .btn.btn-primary {
 	border-radius: 0px;
 	width: 100%;
-	/* background-color: #038c00; */
-	background-image: linear-gradient(to right, #d31c3f, #e3510e);
-	height: 48px;
+	background-color: #ffc928;
+	/* height: 48px; */
 	font-size: 14px;
-	color: #ffffff;
-	padding: .5rem 2rem;
+	color: #000000;
+	padding: 0 20px;
+	font-weight: 700;
+	border-radius: 10px;
+	height: 60px;
+	/* padding: .5rem 2rem; */
 }
 .continue-button .btn.btn-primary:hover,
 .continue-button .btn.btn-primary:focus {
